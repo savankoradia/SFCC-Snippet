@@ -1,0 +1,31 @@
+{
+	"name": "sfcc-snippets",
+	"displayName": "SFCC Snippets",
+	"description": "Use best sfcc snippets to implement your code",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.61.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"publisher": "SavanKoradia",
+	"author": {
+		"name": "Savan Koradia",
+		"email": "koradia.savan@gmail.com",
+		"url": "https://savankoradia.com"
+	},
+	"contributes": {
+		"snippets": [
+			{
+				"language": "javascript",
+				"path": "./snippets/snippets.code-snippets"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "2f1a0c5a-ea3a-4026-9330-85e53a12e008",
+		"publisherDisplayName": "Savan Koradia",
+		"publisherId": "b0266c04-5a37-43aa-ba28-90c806c48037"
+	}
+}
