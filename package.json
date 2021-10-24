@@ -2,7 +2,7 @@
 	"name": "sfcc-snippets",
 	"displayName": "SFCC Snippets",
 	"description": "Use best sfcc snippets to implement your code",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"engines": {
 		"vscode": "^1.61.0"
 	},
@@ -27,5 +27,14 @@
 		"id": "2f1a0c5a-ea3a-4026-9330-85e53a12e008",
 		"publisherDisplayName": "Savan Koradia",
 		"publisherId": "b0266c04-5a37-43aa-ba28-90c806c48037"
-	}
+	},
+    "bugs": {
+        "url": "https://github.com/savankoradia/SFCC-Snippet/issues",
+        "email": "koradia.savan@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/savankoradia/SFCC-Snippet"
+    },
+    "homepage": "https://savankoradia.com/index.php/2021/10/24/sfcc-snippet-a-vscode-extension/"
 }
