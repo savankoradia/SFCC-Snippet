@@ -1,6 +1,6 @@
 {
     "Get Order by Id": {
-        "prefix": "!getOrerById",
+        "prefix": "!getOrderById",
         "body": [
             "var OrderMgr = require('dw/order/OrderMgr');",
             "if (orderId) {",
@@ -8,5 +8,23 @@
             "}"
         ],
         "description": "Code snippet to get order from SFCC."
+    },
+    "Get Basket": {
+        "prefix": "!getBasket",
+        "body": [
+            "var BasketMgr = require('dw/order/BasketMgr');",
+            "var currentBasket = BasketMgr.getCurrentBasket();",
+            "if (!currentBasket) {",
+            "}"
+        ],
+        "description": "Code snippet to get customers basket."
+    },
+    "Get Or Create Basket": {
+        "prefix": "!getOrCreateBasket",
+        "body": [
+            "var BasketMgr = require('dw/order/BasketMgr');",
+            "var currentBasket = BasketMgr.getCurrentOrNewBasket();",
+        ],
+        "description": "Code snippet to get or create customers basket."
     }
 }
