@@ -1,6 +1,6 @@
 {
     "Get Order by Id": {
-        "prefix": "!getOrerById",
+        "prefix": "!getOrderById",
         "body": [
             "var OrderMgr = require('dw/order/OrderMgr');",
             "if (orderId) {",
