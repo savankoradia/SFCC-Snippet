@@ -1,0 +1,17 @@
+{
+    "Get Order By number": {
+        "prefix": "!sfcc_getOrderByNumber",
+        "body": [
+            "/*",
+            " * Provide order number to the function and it returns order if available else null. ",
+            " * when the Limit Storefront Order Access preference is enabled and the order is insecurely accessed - SecurityException is thrown",
+            " * Documentation: https://documentation.b2c.commercecloud.salesforce.com/DOC1/index.jsp?topic=%2Fcom.demandware.dochelp%2FDWAPI%2Fscriptapi%2Fhtml%2Fapi%2Fclass_dw_order_OrderMgr.html&resultof=%22%6f%72%64%65%72%4d%67%72%22%20%22%6f%72%64%65%72%6d%67%72%22%20%22%63%6c%61%73%73%22%20&anchor=dw_order_OrderMgr_getOrder_String_DetailAnchor",
+            " */",
+            "if (orderNo) {",
+            "\tvar OrderMgr = require('dw/order/OrderMgr');",
+            "\tvar order = OrderMgr.getOrder(orderNo);",
+            "}"
+        ],
+        "description": "Code snippet to get order from SFCC."
+    }
+}
