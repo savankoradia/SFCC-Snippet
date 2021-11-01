@@ -5,7 +5,7 @@ This snippet extension helps developers to add code very easily and quickly, wit
 ## Features
 
 Below is the list of snippet:
-1. Get Order by Id
+1. Get Order By number
 
 ### For more information
 

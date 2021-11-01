@@ -2,7 +2,7 @@
 	"name": "sfcc-snippets",
 	"displayName": "SFCC Snippets",
 	"description": "Use best sfcc snippets to implement your code",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"engines": {
 		"vscode": "^1.61.0"
 	},
@@ -19,7 +19,15 @@
 		"snippets": [
 			{
 				"language": "javascript",
-				"path": "./snippets/snippets.code-snippets"
+				"path": "./snippets/orders.code-snippets"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/baskets.code-snippets"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/custom-objects.code-snippets"
 			}
 		]
 	},
